@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <!--<com.example.hwl.androidyishu.CircleView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--app:circle_color="@color/colorPrimary"-->
+        <!--/>-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.example.hwl.androidyishu.ClockView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:border_color="#ff1ff41f"
+            app:border_width="2dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.example.hwl.androidyishu.ClockView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:border_color="@color/colorAccent"
+            app:border_width="4dp"/>
+    </FrameLayout>
+
+    <!--<com.example.hwl.androidyishu.ClockView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--app:border_color="#ff1ff41f"-->
+        <!--app:border_width="2dp"/>-->
+
+
+
+
+</LinearLayout>
