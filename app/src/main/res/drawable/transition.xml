@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="20dp">
+
+
+
+
+    <item android:drawable="@drawable/shape_blue"/>
+    <item android:drawable="@drawable/inset"/>
+    <item android:drawable="@drawable/shape_red"/>
+</transition>
