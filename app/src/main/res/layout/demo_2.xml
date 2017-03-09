@@ -107,6 +107,14 @@
         android:gravity="center"
         android:background="@drawable/state_list"/>
 
+    <com.example.hwl.androidyishu.MyTextView1
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ff0000"
+        app:text="this is text"
+        app:textSize="50sp"
+        app:textColor="@color/light_green"/>
+
     <!--<ImageButton-->
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->
